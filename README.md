@@ -1,4 +1,4 @@
-# 🏥 Medical Appointment Booking Agent (LLM + MCP)
+# Medical Appointment Booking Agent (LLM + MCP)
 
 A conversational **medical appointment assistant** that uses a **Large Language Model (Claude)** for intent extraction and a **deterministic Python backend** for reliable execution.
 
@@ -6,11 +6,11 @@ This project demonstrates how LLMs can be safely integrated into real systems by
 
 ---
 
-## 🚀 What This Project Does
+##  What This Project Does
 
 The agent allows users to interact in natural language to perform medical appointment–related tasks.
 
-### 👤 Patient Capabilities
+### Patient Capabilities
 - Book medical appointments with doctors
 - Provide missing details through follow-up questions
 - Receive booking confirmation via email
@@ -22,7 +22,7 @@ The agent allows users to interact in natural language to perform medical appoin
 
 ---
 
-## 🧠 Core Design Principle
+## Core Design Principle
 
 > **The LLM is used only for intent and data extraction.  
 All actions are executed deterministically by backend logic.**
@@ -31,7 +31,7 @@ This prevents hallucinations, ensures correctness, and keeps the system predicta
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 User Input
 ↓
@@ -66,7 +66,7 @@ Doctor_Appoinment/
 |---- README.md
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.12**
 - **Anthropic Claude API**
