@@ -49,18 +49,21 @@ Email Notification Service
 
 ## File Structure
 
-📦backend
- ┣ 📜__init__.py
- ┣ 📜agent.py
- ┣ 📜core.py
- ┣ 📜database.py
- ┣ 📜email_service.py
- ┣ 📜llm_parser.py
- ┣ 📜llm_router.py
- ┣ 📜main.py
- ┣ 📜mcp_servers.py
- ┗ 📜prompts.py
-
+Doctor_Appoinment/
+│
+├── backend/
+│ ├── agent.py
+│ ├── core.py
+│ ├── llm_parser.py
+│ ├── llm_router.py
+│ ├── prompts.py
+│ ├── database.py
+│ ├── email_service.py
+│ ├── run_agent_once.py # CLI entry point
+│ └── init.py
+|---- frontend #Not prrepared
+|---- requirement.txt
+|---- README.md
 
 
 ## 🛠️ Tech Stack
