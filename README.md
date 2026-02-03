@@ -16,7 +16,7 @@ The agent allows users to interact in natural language to perform medical appoin
 - Receive booking confirmation via email
 - Retrieve appointment details using appointment ID
 
-### 👨‍⚕️ Doctor Capabilities
+### Doctor Capabilities
 - View daily schedules for a specific date
 - Receive daily schedules via email
 
