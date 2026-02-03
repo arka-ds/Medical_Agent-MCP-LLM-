@@ -66,7 +66,6 @@ Doctor_Appoinment/
 - **PostgreSQL**
 - **SQLAlchemy**
 - **SendGrid (Email)**
-- **dotenv**
 
 
 
