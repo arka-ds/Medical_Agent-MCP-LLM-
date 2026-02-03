@@ -20,16 +20,8 @@ The agent allows users to interact in natural language to perform medical appoin
 - View daily schedules for a specific date
 - Receive daily schedules via email
 
----
 
-## Core Design Principle
 
-> **The LLM is used only for intent and data extraction.  
-All actions are executed deterministically by backend logic.**
-
-This prevents hallucinations, ensures correctness, and keeps the system predictable and testable.
-
----
 
 ## Architecture Overview
 
